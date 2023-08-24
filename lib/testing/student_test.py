@@ -12,7 +12,7 @@ class TestStudent:
 
     def test_initializes_with_names(self):
         '''initializes with first and last name.'''
-        my_student = Student("My", "Student")
+        my_student = Student()
         assert((my_student.first_name, my_student.last_name) == ("My", "Student"))
 
     def test_initializes_with_knowledge(self):
