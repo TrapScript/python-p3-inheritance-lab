@@ -6,5 +6,8 @@ import random
 
 class Teacher(User):
 
+    def __init__(self, knowledge):
+
+
     def teach(self):
         pass
